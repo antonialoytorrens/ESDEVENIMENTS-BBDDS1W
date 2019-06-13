@@ -6,7 +6,7 @@ CREATE TRIGGER EMAIL_VALID_PERSONA BEFORE INSERT ON PERSONA
 FOR EACH ROW
 BEGIN
 	DECLARE MESSAGE_TEXT VARCHAR(100);
-    IF NEW.EMAIL NOT REGEXP '^[^@]+@[^@]+\.[^@]{2,}$' THEN
+    IF NEW.EMAIL NOT REGEXP "^[^@]+@[^@]+\.[^@]{2,}$" THEN
     SIGNAL SQLSTATE '45000'
     SET MESSAGE_TEXT = "L'email de la persona és invàlid";
     END IF;
@@ -32,7 +32,7 @@ CREATE TRIGGER TELEFON_PERSONA_VALID BEFORE INSERT ON TELEFON_PERSONA
 FOR EACH ROW
 BEGIN
 	DECLARE MESSAGE_TEXT VARCHAR(100);
-    IF NEW.PK_TELEFON_PERSONA NOT REGEXP '(([+][(]?[0-9]{1,3}[)]?)|([(]?[0-9]{4}[)]?))\s*[)]?[-\s\.]?[(]?[0-9]{1,3}[)]?([-\s\.]?[0-9]{3})([-\s\.]?[0-9]{1,4})' THEN
+    IF NEW.PK_TELEFON_PERSONA NOT REGEXP "(([+][(]?[0-9]{1,3}[)]?)|([(]?[0-9]{4}[)]?))\s*[)]?[-\s\.]?[(]?[0-9]{1,3}[)]?([-\s\.]?[0-9]{3})([-\s\.]?[0-9]{1,4})" THEN
 	SIGNAL SQLSTATE '45000'
     SET MESSAGE_TEXT = "El telèfon de la persona és invàlid.";
     END IF;
@@ -45,7 +45,7 @@ CREATE TRIGGER EMAIL_VALID_PUNT_VENTA BEFORE INSERT ON PUNT_VENTA
 FOR EACH ROW
 BEGIN
 	DECLARE MESSAGE_TEXT VARCHAR(100);
-    IF NEW.PUNT_VENTA.EMAIL NOT REGEXP '^[a-z]{3,}((\.|\_)[a-z]{3,})?@[a-z]{6,}\.[a-z]{2,3}$' THEN
+    IF NEW.EMAIL NOT REGEXP "^[^@]+@[^@]+\.[^@]{2,}$" THEN
     SIGNAL SQLSTATE '45000'
     SET MESSAGE_TEXT = "El correu electrònic del punt de venta és invàlid.";
     END IF;
@@ -58,7 +58,7 @@ CREATE TRIGGER WEB_VALIDA BEFORE INSERT ON PUNT_VENTA
 FOR EACH ROW
 BEGIN
 	DECLARE MESSAGE_TEXT VARCHAR(100);
-	IF NEW.PUNT_VENTA.WEB NOT REGEXP "^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/" THEN
+	IF NEW.WEB NOT REGEXP "^(https?://|www\\.)[\.A-Za-z0-9\-]+\\.[a-zA-Z]{2,4}" THEN
     SIGNAL SQLSTATE '45000'
     SET MESSAGE_TEXT = "La web del punt de venta no és vàlida";
     END IF;
@@ -71,9 +71,9 @@ CREATE TRIGGER DIRECCIO_VALIDA_PUNT_VENTA BEFORE INSERT ON PUNT_VENTA
 FOR EACH ROW
 BEGIN
 	DECLARE MESSAGE_TEXT VARCHAR(100);
-	IF NEW.PUNT_VENTA.DIRECCIO NOT REGEXP '/^([Cc]+[\./\s])?\s?(.*)\,\s*(\d{1,})(\-?\d*?[A-Z]{1}?)?$/' THEN
+	IF NEW.DIRECCIO NOT REGEXP "^\d+\s[A-z]+\s[A-z]+(\s+[A-z]+(\.)?\s[0-9]+)?$" THEN
     SIGNAL SQLSTATE '45000'
-    SET MESSAGE_TEXT = "La direcció del punt de venta no és vàlid";
+    SET MESSAGE_TEXT = NEW.DIRECCIO;
     END IF;
 END $$
 DELIMITER ;
@@ -84,7 +84,7 @@ CREATE TRIGGER TELEFON_PUNT_VENTA_VALID BEFORE INSERT ON TELEFON_PUNT_VENTA
 FOR EACH ROW
 BEGIN
 	DECLARE MESSAGE_TEXT VARCHAR(100);
-    IF NEW.PK_TELEFON_PUNT_VENTA NOT REGEXP '(([+][(]?[0-9]{1,3}[)]?)|([(]?[0-9]{4}[)]?))\s*[)]?[-\s\.]?[(]?[0-9]{1,3}[)]?([-\s\.]?[0-9]{3})([-\s\.]?[0-9]{1,4})' THEN
+    IF NEW.PK_TELEFON_PUNT_VENTA NOT REGEXP "(([+][(]?[0-9]{1,3}[)]?)|([(]?[0-9]{4}[)]?))\s*[)]?[-\s\.]?[(]?[0-9]{1,3}[)]?([-\s\.]?[0-9]{3})([-\s\.]?[0-9]{1,4})" THEN
 	SIGNAL SQLSTATE '45000'
     SET MESSAGE_TEXT = "El telèfon del punt de venta és invàlid.";
     END IF;
@@ -97,7 +97,7 @@ CREATE TRIGGER DIRECCIO_VALIDA_RECINTE BEFORE INSERT ON RECINTE
 FOR EACH ROW
 BEGIN
 	DECLARE MESSAGE_TEXT VARCHAR(100);
-	IF NEW.DIRECCIO NOT REGEXP '/^([Cc]+[\./\s])?\s?(.*)\,\s*(\d{1,})(\-?\d*?[A-Z]{1}?)?$/' THEN
+	IF NEW.DIRECCIO NOT REGEXP "^\d+\s[A-z]+\s[A-z]+(\s+[A-z]+(\.)?\s[0-9]+)?$" THEN
     SIGNAL SQLSTATE '45000'
     SET MESSAGE_TEXT = "La direcció del recinte no és vàlid";
     END IF;
