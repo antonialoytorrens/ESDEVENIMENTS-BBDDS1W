@@ -1,4 +1,4 @@
-use ESDEVENIMENTS_DDL;
+
 /*INSERTS PERSONA*/
 INSERT INTO `PERSONA` (`PK_CODI_PERSONA`, `DNI`, `NOM`, `LLINATGES`, `EMAIL`, `DATA_NAIXEMENT`) VALUES (1, '815', 'Mr.', 'Sheridan', 'kiera39@example.org', '1988-06-09');
 INSERT INTO `PERSONA` (`PK_CODI_PERSONA`, `DNI`, `NOM`, `LLINATGES`, `EMAIL`, `DATA_NAIXEMENT`) VALUES (2, '730', 'Dr.', 'Herman', 'zieme.rosemary@example.net', '1999-09-03');
@@ -102,131 +102,132 @@ INSERT INTO `PERSONA` (`PK_CODI_PERSONA`, `DNI`, `NOM`, `LLINATGES`, `EMAIL`, `D
 INSERT INTO `PERSONA` (`PK_CODI_PERSONA`, `DNI`, `NOM`, `LLINATGES`, `EMAIL`, `DATA_NAIXEMENT`) VALUES (100, '237', 'Mr.', 'Edmond', 'deron.block@example.com', '2002-08-05');
 
 /*INSERTS INTO TELEFON_PERSONA*/
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (1, 8, 'in', 'Et minima perspiciatis fugit voluptatem enim.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (1, 60, 'id', 'Id aperiam omnis fugiat in porro quo aut.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (2, 1, 'aspernatur', 'Cum velit veritatis maiores saepe et nesciunt voluptates vel.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (2, 9, 'odit', 'Dicta ducimus omnis eveniet minus.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (5, 2, 'ducimus', 'Et quae dignissimos impedit blanditiis.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (26, 33, 'minima', 'Earum dolores eos dolores quam rerum culpa blanditiis.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (41, 52, 'a', 'Et ea nemo illum ipsum aut sunt inventore vel.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (150, 5, 'optio', 'Molestias est sit totam sit odio.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (252, 60, 'nobis', 'Iusto veniam animi veniam non quos.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (499, 5, 'officiis', 'Reiciendis cupiditate qui vitae voluptatem assumenda.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (1008, 7, 'explicabo', 'Error iusto cumque eos ut possimus corrupti.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (1900, 23, 'veritatis', 'Sapiente magnam libero rerum sed corporis commodi quo.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (2920, 41, 'et', 'Laudantium saepe architecto quasi provident qui.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (6911, 5, 'ad', 'Officiis optio aspernatur quae voluptas et unde saepe.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (8823, 3, 'sit', 'Veritatis quia dolorem perspiciatis tenetur.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (33125, 63, 'et', 'Et ab quo aut.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (38076, 20, 'possimus', 'Accusantium officia laborum est harum.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (603251, 42, 'perspiciatis', 'Sunt maxime quo ea eaque quo.');
-INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (11917099, 86, 'aut', 'Est est id provident error rerum perspiciatis rerum.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (971511266, 8, 'in', 'Et minima perspiciatis fugit voluptatem enim.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (971511370, 60, 'id', 'Id aperiam omnis fugiat in porro quo aut.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (971511446, 1, 'aspernatur', 'Cum velit veritatis maiores saepe et nesciunt voluptates vel.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (696789048, 9, 'odit', 'Dicta ducimus omnis eveniet minus.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (971511269, 2, 'ducimus', 'Et quae dignissimos impedit blanditiis.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (971511260, 33, 'minima', 'Earum dolores eos dolores quam rerum culpa blanditiis.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (696789055, 52, 'a', 'Et ea nemo illum ipsum aut sunt inventore vel.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (696789111, 5, 'optio', 'Molestias est sit totam sit odio.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (696782222, 60, 'nobis', 'Iusto veniam animi veniam non quos.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (696783333, 5, 'officiis', 'Reiciendis cupiditate qui vitae voluptatem assumenda.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (696789044, 7, 'explicabo', 'Error iusto cumque eos ut possimus corrupti.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (696789990, 23, 'veritatis', 'Sapiente magnam libero rerum sed corporis commodi quo.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (696778892, 41, 'et', 'Laudantium saepe architecto quasi provident qui.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (971196782, 5, 'ad', 'Officiis optio aspernatur quae voluptas et unde saepe.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (971123452, 3, 'sit', 'Veritatis quia dolorem perspiciatis tenetur.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (971123450, 63, 'et', 'Et ab quo aut.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (971123451, 20, 'possimus', 'Accusantium officia laborum est harum.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (971123453, 42, 'perspiciatis', 'Sunt maxime quo ea eaque quo.');
+INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (971123454, 86, 'aut', 'Est est id provident error rerum perspiciatis rerum.');
 
 /*INSERTS INTO PUNT_VENTA*/
-INSERT INTO `PUNT_VENTA` VALUES ('1','Reinger-Hegmann','http://www.lemke.info/','sasha51@example.net','Suite 984'),
-('2','Schoen-Witting','http://goodwin.biz/','haskell07@example.net','Apt. 718'),
-('3','Lakin-Cormier','http://wymanbrakus.com/','cary.mccullough@example.net','Suite 431'),
-('4','Legros Group','http://kutch.com/','mavis31@example.com','Suite 947'),
-('5','Reichel, Medhurst and Sawayn','http://walker.com/','maxime.halvorson@example.com','Apt. 683'),
-('6','Reichert-Kirlin','http://www.bode.com/','mcglynn.janis@example.com','Suite 352'),
-('7','Heidenreich, Schmeler and Veum','http://www.jonesabernathy.com/','zena05@example.com','Suite 030'),
-('8','Hodkiewicz and Sons','http://www.mertz.com/','gerhold.hadley@example.com','Suite 041'),
-('9','Bartell PLC','http://kessler.com/','effertz.amos@example.net','Apt. 454'),
-('10','Hirthe, Auer and Littel','http://feilfarrell.com/','wilkinson.d\'angelo@example.net','Suite 150'),
-('11','Beahan LLC','http://www.labadie.com/','cynthia.waelchi@example.com','Suite 256'),
-('12','Leffler, Schneider and Hayes','http://flatley.net/','hamill.osborne@example.org','Apt. 608'),
-('13','Stark, Bartell and Langosh','http://www.fahey.com/','lois.moore@example.org','Suite 786'),
-('14','King LLC','http://klingfunk.com/','romaine.welch@example.net','Apt. 739'),
-('15','Mueller LLC','http://www.okuneva.com/','rudy64@example.org','Apt. 596'),
-('16','Welch, Grady and Boehm','http://www.okeefe.com/','zgerhold@example.org','Apt. 919'),
-('17','Breitenberg-Herman','http://www.thiel.com/','elisha77@example.net','Suite 599'),
-('18','Hartmann-Cormier','http://www.predovicheller.com/','devonte69@example.net','Apt. 331'),
-('19','Herzog-Emmerich','http://www.armstrong.info/','penelope70@example.net','Suite 814'),
-('20','Franecki, Fahey and Stark','http://www.maggio.net/','ankunding.ernest@example.org','Apt. 840'),
-('21','Beier-Lynch','http://buckridge.com/','gcrooks@example.com','Suite 245'),
-('22','Nitzsche-Mayert','http://www.greenfelder.com/','dexter.rogahn@example.com','Apt. 048'),
-('23','Ferry-King','http://ortizshields.org/','krempel@example.com','Apt. 166'),
-('24','Barrows Inc','http://grady.com/','west.wilber@example.com','Apt. 194'),
-('25','Miller, Kuvalis and Wiegand','http://www.ricenader.com/','annabell29@example.net','Apt. 307'),
-('26','Lind-Stark','http://www.davis.biz/','wmcclure@example.org','Apt. 742'),
-('27','Turner-Dickens','http://www.langworth.com/','vmayer@example.com','Apt. 662'),
-('28','Sauer-Nolan','http://mitchell.biz/','tbauch@example.com','Apt. 811'),
-('29','Considine-Abbott','http://www.yost.info/','veum.deborah@example.com','Apt. 088'),
-('30','Gutkowski, Quitzon and Stroman','http://www.baumbach.biz/','gladys.boyle@example.com','Suite 049'),
-('31','Sipes-Haley','http://www.wintheiser.org/','milford38@example.com','Suite 900'),
-('32','Kihn and Sons','http://abshire.com/','ndouglas@example.org','Apt. 186'),
-('33','Goldner, Larson and Dickinson','http://west.com/','noemi34@example.com','Apt. 872'),
-('34','Kemmer Inc','http://www.haag.org/','christophe45@example.org','Suite 119'),
-('35','Hammes-Paucek','http://www.bernhardcummerata.info/','baron98@example.org','Apt. 385'),
-('36','Hermiston LLC','http://vonrueden.com/','emilie.baumbach@example.org','Apt. 935'),
-('37','Schinner Ltd','http://feestsawayn.com/','mwaters@example.net','Suite 894'),
-('38','Bergstrom Inc','http://kunde.net/','alessia.smith@example.net','Suite 878'),
-('39','Becker-Leannon','http://veum.com/','vlesch@example.org','Apt. 611'),
-('40','Eichmann, Nolan and Borer','http://labadie.com/','osbaldo.kihn@example.com','Apt. 284'),
-('41','O\'Connell-Jakubowski','http://swiftgislason.org/','betty87@example.com','Apt. 054'),
-('42','Kub-Cruickshank','http://www.jast.com/','sophia.hoeger@example.com','Apt. 697'),
-('43','Bernier-Sauer','http://www.hicklereynolds.com/','cyril.larkin@example.org','Apt. 682'),
-('44','Orn-Stroman','http://bechtelar.net/','wintheiser.keanu@example.org','Apt. 982'),
-('45','Eichmann, Hilpert and Paucek','http://heidenreich.com/','elian.conn@example.net','Suite 484'),
-('46','Bosco Group','http://kiehnbaumbach.com/','jadams@example.net','Suite 062'),
-('47','Bosco-O\'Keefe','http://www.rogahn.com/','osauer@example.org','Apt. 548'),
-('48','DuBuque-Turner','http://labadie.biz/','aemmerich@example.org','Suite 527'),
-('49','Jakubowski LLC','http://www.hegmann.com/','boehm.joyce@example.org','Apt. 641'),
-('50','Grant-Runolfsdottir','http://www.von.com/','dietrich.reed@example.net','Apt. 484'),
-('51','Bartoletti-Larkin','http://willmshettinger.org/','adelbert92@example.org','Suite 195'),
-('52','Skiles Inc','http://jaskolski.net/','deonte.block@example.org','Apt. 669'),
-('53','Bradtke LLC','http://www.thiel.com/','ursula.willms@example.com','Apt. 481'),
-('54','Gislason-Oberbrunner','http://dickinson.com/','hellen75@example.net','Apt. 120'),
-('55','O\'Connell, Rice and Hand','http://www.hudsondouglas.com/','mertie.turner@example.com','Apt. 904'),
-('56','Murray-Auer','http://www.mcglynn.info/','hermina.turcotte@example.com','Suite 689'),
-('57','O\'Keefe, Schultz and Aufderhar','http://www.becker.org/','nstiedemann@example.net','Suite 152'),
-('58','Howell Group','http://www.murphy.net/','maverick.roberts@example.org','Suite 841'),
-('59','Hirthe-Fahey','http://www.stracke.info/','blehner@example.net','Suite 157'),
-('60','Bernhard-Hodkiewicz','http://www.spencer.com/','rpurdy@example.org','Suite 970'),
-('61','Mitchell LLC','http://greenholt.com/','ullrich.rodger@example.com','Suite 735'),
-('62','Schimmel, Hoeger and Schamberger','http://www.handschroeder.com/','howe.danny@example.net','Apt. 918'),
-('63','Wilkinson PLC','http://www.morissettebins.net/','reichert.gideon@example.net','Apt. 744'),
-('64','Harvey-Schroeder','http://medhurst.net/','borer.kristofer@example.org','Apt. 519'),
-('65','Brown-Welch','http://www.aufderhar.com/','bernier.daniela@example.net','Suite 927'),
-('66','Predovic, Beatty and Deckow','http://zemlak.org/','goldner.amiya@example.org','Suite 000'),
-('67','Weber, Boyer and Spencer','http://pfeffer.org/','betsy.waters@example.com','Apt. 753'),
-('68','Zulauf-Donnelly','http://grady.org/','donald66@example.org','Suite 974'),
-('69','Kemmer, Rath and Murazik','http://toy.org/','marian.fisher@example.com','Suite 096'),
-('70','Purdy LLC','http://white.com/','oroberts@example.com','Apt. 481'),
-('71','Hermiston Inc','http://lowereichert.net/','dooley.jarod@example.com','Suite 804'),
-('72','Hagenes, Prosacco and Kutch','http://www.robel.net/','kelli43@example.net','Suite 576'),
-('73','Jacobson-Bailey','http://www.dickensfarrell.net/','sonya09@example.org','Suite 541'),
-('74','Cruickshank Group','http://schneider.com/','hauck.jayde@example.org','Suite 732'),
-('75','Welch-Fritsch','http://www.langosh.com/','gorn@example.net','Apt. 192'),
-('76','Casper-Daniel','http://kreiger.net/','celestine73@example.net','Suite 173'),
-('77','Beier, Gerhold and Durgan','http://www.bode.com/','senger.shaina@example.com','Apt. 983'),
-('78','Haley, Adams and Weissnat','http://www.graham.com/','etrantow@example.org','Apt. 876'),
-('79','McClure LLC','http://jaskolski.biz/','watsica.cielo@example.net','Suite 179'),
-('80','Schimmel-Braun','http://www.hilpertdare.com/','wiegand.janae@example.com','Apt. 734'),
-('81','Weimann, Kirlin and Rice','http://flatley.biz/','margarita.parisian@example.org','Suite 647'),
-('82','Effertz and Sons','http://www.mayer.com/','alfonzo.brown@example.org','Apt. 110'),
-('83','McCullough-Rau','http://www.casperkuhic.com/','stiedemann.ike@example.org','Suite 452'),
-('84','Goyette, Shanahan and Mayert','http://www.emmerich.com/','xstamm@example.com','Suite 180'),
-('85','Cummerata LLC','http://weissnat.com/','marjolaine.schuppe@example.com','Apt. 710'),
-('86','Champlin, Smith and Balistreri','http://www.kris.com/','kkilback@example.net','Suite 717'),
-('87','McKenzie PLC','http://emard.net/','scasper@example.com','Suite 286'),
-('88','Russel-Kihn','http://www.anderson.com/','triston.raynor@example.com','Apt. 426'),
-('89','Streich PLC','http://hauck.com/','johnathan.durgan@example.org','Suite 268'),
-('90','Larkin, Krajcik and Cronin','http://www.kirlin.org/','mckenzie.gladys@example.net','Apt. 912'),
-('91','Ebert, Labadie and Schulist','http://roweschaefer.com/','o\'keefe.albin@example.net','Suite 207'),
-('92','Wilderman, Mante and Keeling','http://feestruecker.biz/','ruby.gaylord@example.com','Suite 047'),
-('93','Kilback PLC','http://www.parisian.com/','tressie.doyle@example.net','Suite 902'),
-('94','Collier Inc','http://johns.com/','kale.runolfsson@example.net','Suite 969'),
-('95','Denesik, Conroy and Kuhic','http://marvin.com/','hcorwin@example.com','Suite 974'),
-('96','Grant-Dickinson','http://www.swaniawski.com/','columbus.keebler@example.org','Suite 439'),
-('97','Schoen-Kiehn','http://www.breitenberggrant.biz/','veum.porter@example.org','Apt. 746'),
-('98','Franecki, Feest and Denesik','http://www.turner.com/','candice.carter@example.org','Suite 063'),
-('99','Willms-Trantow','http://mosciski.org/','idibbert@example.com','Suite 264'),
-('100','Lebsack LLC','http://www.kessler.com/','dziemann@example.org','Apt. 984'); 
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (1, 'cum', 'http://champlinweissnat.info/', 'auer.sabryna@example.com', '764 Madyson Camp Suite 730');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (2, 'repellat', 'http://www.mante.biz/', 'freda.turcotte@example.com', '1957 Conn Mews Suite 858');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (3, 'eos', 'http://ebert.net/', 'lesch.brennan@example.net', '12939 Verdie Village Apt. 526');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (4, 'voluptatum', 'http://stokesdickinson.com/', 'schmeler.mable@example.com', '13514 Nettie Radial');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (5, 'ducimus', 'http://durgan.info/', 'torey00@example.com', '92929 Rosalyn Fork');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (6, 'possimus', 'http://sporer.com/', 'omayer@example.net', '067 Langosh Plaza');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (7, 'aspernatur', 'http://okunevayundt.net/', 'maximilian.reichert@example.net', '76636 Willie Highway Apt. 372');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (8, 'hic', 'http://abernathy.com/', 'olson.blaise@example.net', '90005 Cummings Springs');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (9, 'voluptatem', 'http://www.legros.info/', 'feest.urban@example.net', '3834 Rylee Harbors');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (10, 'reiciendis', 'http://www.zemlakjones.info/', 'leila.heathcote@example.org', '1379 Oberbrunner Hollow');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (11, 'at', 'http://www.langoshmayert.com/', 'yherzog@example.org', '37686 Celia Shores');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (12, 'quo', 'http://heaneyprosacco.biz/', 'elva41@example.org', '10571 Pierce Row');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (13, 'sed', 'http://www.graham.info/', 'iwehner@example.org', '1814 Gianni Dam');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (14, 'ipsa', 'http://hageneskassulke.info/', 'evan19@example.com', '88178 Candido Ramp');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (15, 'et', 'http://www.auer.com/', 'wstoltenberg@example.org', '6278 Brown Shoals');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (16, 'ducimus', 'http://shanahan.info/', 'chandler34@example.net', '1665 Mollie Pass');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (17, 'asperiores', 'http://www.schuppe.com/', 'kswaniawski@example.net', '338 Elias Lodge');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (18, 'omnis', 'http://murphy.com/', 'yasmin32@example.org', '5310 Hammes Curve');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (19, 'id', 'http://gorczany.com/', 'mayer.carrie@example.org', '6202 Marjory Parkways');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (20, 'natus', 'http://konopelski.com/', 'bernier.ethel@example.net', '8395 Bill Forges Suite 384');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (21, 'cupiditate', 'http://ziemelind.com/', 'juliet73@example.org', '0817 Huel Coves Apt. 954');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (22, 'occaecati', 'http://www.okeefepollich.com/', 'armstrong.aurelie@example.com', '3331 Jordan Shore');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (23, 'dolores', 'http://bayer.com/', 'shany77@example.org', '496 Irving Corners');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (24, 'ducimus', 'http://baumbach.biz/', 'ocole@example.com', '2883 Ora Ways Apt. 195');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (25, 'eos', 'http://www.hyattmoen.info/', 'adrain.kutch@example.net', '8842 Roma Mountain Suite 704');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (26, 'et', 'http://vonfay.info/', 'adah.koepp@example.net', '30537 Idella Estates Suite 623');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (27, 'voluptas', 'http://thompson.com/', 'bruecker@example.org', '174 Mandy Coves');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (28, 'natus', 'http://larkin.info/', 'mkertzmann@example.net', '5071 Oberbrunner Rapids Apt. 371');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (29, 'magni', 'http://hoegerkiehn.com/', 'dillon37@example.net', '78044 Rutherford Mill Apt. 597');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (30, 'id', 'http://baileyhoppe.com/', 'ariane56@example.org', '818 Baron Port');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (31, 'perspiciatis', 'http://www.keebler.info/', 'novella.lesch@example.com', '92842 Tracey Station Suite 612');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (32, 'voluptas', 'http://www.west.com/', 'nader.kenyon@example.com', '567 Sheridan Skyway Suite 761');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (33, 'molestiae', 'http://volkman.org/', 'kole75@example.org', '291 Keven Estate Apt. 931');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (34, 'omnis', 'http://ruecker.com/', 'herman.amina@example.org', '99400 Rippin Mission');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (35, 'quo', 'http://www.lakin.org/', 'bud.altenwerth@example.org', '12717 Gusikowski Stravenue Suite 395');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (36, 'perspiciatis', 'http://nikolausjohnston.com/', 'raina45@example.net', '52017 Hamill Falls');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (37, 'nesciunt', 'http://mcglynn.com/', 'jocelyn73@example.net', '90900 Erica Hollow Suite 972');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (38, 'sint', 'http://marquardt.com/', 'klein.wilber@example.net', '84533 Althea Lake');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (39, 'ducimus', 'http://daugherty.info/', 'jconsidine@example.net', '4106 Kling Ports Apt. 309');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (40, 'nobis', 'http://www.abshire.com/', 'xkuhn@example.org', '5196 Antwan Ville Suite 538');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (41, 'fuga', 'http://www.konopelskiblick.com/', 'sbaumbach@example.org', '47478 Fay Cliffs Suite 227');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (42, 'illum', 'http://sporerlehner.com/', 'uhintz@example.com', '008 Shaun Shoals');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (43, 'dolores', 'http://www.tremblay.com/', 'gracie68@example.org', '2983 Efrain Neck Suite 348');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (44, 'iste', 'http://medhurst.com/', 'fkulas@example.org', '7905 Elisabeth Hollow Suite 314');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (45, 'in', 'http://www.mitchelljohnson.com/', 'jennie.ferry@example.com', '015 Lakin Views Suite 456');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (46, 'eum', 'http://www.turcotte.net/', 'alvis.hilll@example.org', '310 Ibrahim Tunnel');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (47, 'voluptas', 'http://www.haaghyatt.com/', 'nash.conn@example.com', '95784 Pfeffer Orchard Suite 356');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (48, 'ducimus', 'http://www.paucek.info/', 'ena.emmerich@example.net', '51378 Roob Spurs');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (49, 'minima', 'http://www.lubowitz.org/', 'nfisher@example.com', '5849 Murazik Terrace');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (50, 'natus', 'http://www.nicolas.com/', 'ksanford@example.org', '8911 Beverly Estates Suite 493');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (51, 'aut', 'http://sauer.net/', 'lonny40@example.org', '377 Cormier Lodge');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (52, 'tenetur', 'http://www.koch.com/', 'xschuster@example.org', '2323 Maegan Fields');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (53, 'quia', 'http://wintheiser.com/', 'klocko.deanna@example.com', '221 Wintheiser Valleys Suite 078');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (54, 'doloribus', 'http://www.dach.net/', 'carlos.stokes@example.org', '94129 Gerhard Spur');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (55, 'tenetur', 'http://www.marks.com/', 'bridie07@example.com', '1086 Carroll Court Suite 595');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (56, 'quisquam', 'http://www.larkinhammes.org/', 'kulas.astrid@example.net', '93981 McCullough Row');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (57, 'corrupti', 'http://www.brown.biz/', 'annie.herzog@example.com', '523 Dalton Inlet');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (58, 'et', 'http://www.lednerleuschke.com/', 'viva.abernathy@example.org', '988 Funk Shore Apt. 554');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (59, 'dicta', 'http://www.rutherfordbailey.org/', 'gerald35@example.net', '2612 Raven Crossing');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (60, 'id', 'http://kemmer.com/', 'mafalda.nicolas@example.com', '39742 Jordyn Falls Suite 398');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (61, 'ut', 'http://www.hilpert.info/', 'bhuel@example.org', '77261 Stanton Greens Apt. 796');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (62, 'nihil', 'http://walshschaefer.com/', 'smiller@example.net', '0078 Stanton Camp Suite 479');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (63, 'necessitatibus', 'http://schmitt.com/', 'mann.glennie@example.com', '42500 Tyler Land');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (64, 'blanditiis', 'http://www.murazikbruen.com/', 'alena20@example.com', '898 Reilly Forest Apt. 094');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (65, 'aperiam', 'http://beahan.com/', 'hamill.lindsay@example.net', '841 Earl Squares');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (66, 'accusantium', 'http://www.casperrunolfsdottir.net/', 'west.dana@example.net', '732 Prohaska Union Apt. 620');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (67, 'quia', 'http://www.bayer.com/', 'lemke.lafayette@example.com', '9753 Lempi Circles Suite 571');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (68, 'animi', 'http://rodriguezrenner.biz/', 'raina36@example.org', '360 Klein Bypass');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (69, 'cupiditate', 'http://www.jones.com/', 'crooks.walter@example.com', '094 Corkery Camp');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (70, 'corrupti', 'http://romaguera.com/', 'jaden93@example.com', '616 Wisoky Drives Suite 445');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (71, 'est', 'http://heaney.com/', 'oschowalter@example.net', '3255 Dickens Pike');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (72, 'qui', 'http://www.beier.biz/', 'xstoltenberg@example.net', '1739 Hoppe Common Apt. 106');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (73, 'veniam', 'http://casper.com/', 'yost.arlie@example.com', '834 Kristy Unions Apt. 891');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (74, 'a', 'http://roberts.com/', 'pansy36@example.net', '091 Murazik Motorway Suite 189');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (75, 'a', 'http://west.com/', 'carroll.mohammed@example.com', '45203 Antwon Shoal');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (76, 'in', 'http://www.funkkris.org/', 'bwilderman@example.net', '68895 Jast Manors Suite 663');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (77, 'quibusdam', 'http://dooleyhayes.com/', 'xwisoky@example.net', '9196 Dicki Throughway');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (78, 'occaecati', 'http://www.hauck.org/', 'oma.harris@example.org', '072 Kuphal Terrace Suite 725');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (79, 'quos', 'http://www.runte.biz/', 'umorar@example.org', '76908 Considine Court Suite 012');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (80, 'accusamus', 'http://www.klingrice.org/', 'marjory.mante@example.net', '14200 Welch Overpass');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (81, 'aut', 'http://www.ondricka.org/', 'anna89@example.net', '9910 Gutkowski Loaf');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (82, 'illum', 'http://raynor.info/', 'toy.kevin@example.com', '7109 Elisabeth Field');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (83, 'consequatur', 'http://www.dickinson.net/', 'ebert.annamae@example.org', '3034 Prohaska Creek');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (84, 'dolores', 'http://www.oreillyquitzon.com/', 'morris.simonis@example.net', '218 Orn Way');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (85, 'minus', 'http://lehner.biz/', 'pfeffer.jessy@example.org', '60638 Rath Inlet');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (86, 'facilis', 'http://murazik.com/', 'fidel.howell@example.net', '170 Irwin Manors Apt. 339');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (87, 'debitis', 'http://ferry.com/', 'to\'kon@example.com', '5718 Jacobs Mission');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (88, 'culpa', 'http://wolf.com/', 'umaggio@example.com', '3946 Grady Loop');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (89, 'recusandae', 'http://crooks.net/', 'alvah.turner@example.org', '55212 Schoen Plains Suite 909');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (90, 'libero', 'http://littelrenner.biz/', 'beatrice29@example.org', '44741 Labadie Parkways Suite 110');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (91, 'voluptas', 'http://www.huelsbergnaum.net/', 'boyle.lacey@example.com', '933 Pagac Extension');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (92, 'ipsum', 'http://boehm.com/', 'fnolan@example.org', '6419 Marilie Skyway');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (93, 'qui', 'http://ledner.com/', 'vhowell@example.net', '2724 Blanda Fords');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (94, 'autem', 'http://hilperttorphy.info/', 'tierra50@example.com', '955 Wyman Row');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (95, 'error', 'http://www.jacobs.org/', 'alexanne.reinger@example.com', '19408 Judge Point Apt. 748');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (96, 'numquam', 'http://www.bayerrunolfsdottir.com/', 'blanca28@example.org', '761 Carmela Oval Apt. 847');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (97, 'nihil', 'http://www.wardwill.com/', 'kryan@example.net', '4120 Block Village');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (98, 'earum', 'http://treutel.com/', 'delbert98@example.net', '159 Rau Underpass');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (99, 'exercitationem', 'http://jacobson.org/', 'paul23@example.net', '4697 Price Hills Suite 399');
+INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (100, 'sed', 'http://berge.org/', 'maggio.clinton@example.net', '004 Norma Estate Apt. 758');
+
 /*INSERTS INTO TELEFON_PUNT_VENTA*/
 
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (104, 7, 'voluptatem', 'Ut rerum deleniti reprehenderit in et sit et praesentium.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (105, 10, 'expedita', 'Consequuntur doloremque nihil voluptas eos ratione aut doloribus.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (971523455, 7, 'voluptatem', 'Ut rerum deleniti reprehenderit in et sit et praesentium.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (971123452, 10, 'expedita', 'Consequuntur doloremque nihil voluptas eos ratione aut doloribus.');
 INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (116, 4, 'voluptatum', 'Alias quibusdam perspiciatis debitis quasi.');
 INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (118, 5, 'aut', 'Alias voluptas alias corporis repellendus.');
 INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (121, 1, 'rerum', 'Rerum aut natus dolores laudantium pariatur totam temporibus accusantium.');
@@ -252,7 +253,7 @@ INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENT
 INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (198, 73, 'vitae', 'Dolorum est consequatur libero cum et velit.');
 
 /*INSERTS INTO RECINTE*/
-INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (1, 'deserunt', 'In reiciendis totam non amet et tempora incidunt.', 8334589);
+INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (1, 'deserunt', 'Calle Aragón, 12.', 8334589);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (2, 'omnis', 'Animi ipsum vel blanditiis explicabo ullam autem excepturi.', 876192187);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (3, 'ab', 'Impedit deleniti esse molestiae commodi.', 0);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (4, 'deleniti', 'Nemo vero vitae non consectetur.', 8);
