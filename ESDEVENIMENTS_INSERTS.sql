@@ -1,4 +1,4 @@
-
+use ESDEVENIMENTS_DDL;
 /*INSERTS PERSONA*/
 INSERT INTO `PERSONA` (`PK_CODI_PERSONA`, `DNI`, `NOM`, `LLINATGES`, `EMAIL`, `DATA_NAIXEMENT`) VALUES (1, '815', 'Mr.', 'Sheridan', 'kiera39@example.org', '1988-06-09');
 INSERT INTO `PERSONA` (`PK_CODI_PERSONA`, `DNI`, `NOM`, `LLINATGES`, `EMAIL`, `DATA_NAIXEMENT`) VALUES (2, '730', 'Dr.', 'Herman', 'zieme.rosemary@example.net', '1999-09-03');
@@ -123,107 +123,106 @@ INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPU
 INSERT INTO `TELEFON_PERSONA` (`PK_TELEFON_PERSONA`, `PK_FK_CODI_PERSONA`, `TIPUS_TELEFON`, `OBSERVACIONS`) VALUES (11917099, 86, 'aut', 'Est est id provident error rerum perspiciatis rerum.');
 
 /*INSERTS INTO PUNT_VENTA*/
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (1, 'eos', 'Sint occaecati id dolores hic aspernatur beatae maiores asperiores.', 'janessa79@example.net', 'Culpa quia officia porro qui saepe numquam repellendus debitis.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (2, 'expedita', 'Consequatur nemo consequatur laudantium facere aut culpa dignissimos cum.', 'judy92@example.net', 'Consequuntur enim quia odio.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (3, 'id', 'Qui in ipsum totam eos neque voluptas.', 'mathias25@example.com', 'Illo libero enim ut quis.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (4, 'quia', 'In tempora voluptas maxime ut quis est nulla.', 'darwin.gleichner@example.com', 'Amet impedit vero et fugit est reiciendis nulla.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (5, 'magni', 'Sunt a nisi perferendis officiis.', 'mervin.ullrich@example.net', 'Cumque repellendus sit vero quam totam fuga fugiat.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (6, 'aut', 'Veniam voluptatem excepturi est et est et.', 'katrine52@example.net', 'Nihil nesciunt dicta omnis officiis aliquid sit in.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (7, 'in', 'Iusto voluptatem consequatur fuga rerum vero sed quisquam perspiciatis.', 'nichole.yundt@example.net', 'Consequatur autem eos qui molestiae et ratione quia qui.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (8, 'itaque', 'Magnam nemo in et voluptas aut aut fugit.', 'wehner.darrel@example.org', 'Cumque asperiores eum et beatae incidunt.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (9, 'cupiditate', 'Voluptas laborum assumenda non eos.', 'pmacejkovic@example.net', 'Et velit voluptatum voluptas sequi laudantium atque quisquam.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (10, 'quis', 'Natus reiciendis omnis aperiam a.', 'moore.brain@example.net', 'Animi temporibus ea qui repudiandae.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (11, 'voluptas', 'Quisquam rerum dolorum veritatis.', 'lkozey@example.com', 'Quasi ab vel occaecati veniam ut alias.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (12, 'illo', 'Et hic sit voluptate suscipit consequatur deserunt iusto.', 'dannie.dickens@example.net', 'Velit doloremque excepturi quia ab eligendi eaque aut delectus.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (13, 'voluptas', 'Qui ut aut iusto et.', 'marlon.cremin@example.org', 'Et ea modi aut quibusdam ut.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (14, 'temporibus', 'Et praesentium id minus sed.', 'gussie.willms@example.org', 'Dolore at voluptas itaque nihil est laboriosam.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (15, 'eos', 'Corrupti provident assumenda inventore debitis officiis odit sed.', 'ahoppe@example.net', 'Quis omnis culpa mollitia sed repudiandae.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (16, 'delectus', 'Numquam id cum praesentium expedita consequuntur ipsam.', 'reuben14@example.org', 'Et maxime pariatur qui et eligendi distinctio consequatur quo.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (17, 'ut', 'Eaque ut saepe aut perspiciatis.', 'santa.crist@example.net', 'Voluptatem eligendi odit rerum sunt eum est eveniet.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (18, 'ex', 'Enim expedita ullam voluptatem aut asperiores in recusandae debitis.', 'reilly.rafaela@example.com', 'Suscipit dolores illum aut illum voluptate non voluptatem.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (19, 'aut', 'Suscipit facilis sint et et qui reiciendis nulla dolorum.', 'milo70@example.org', 'Eos vel sed dolorum iure.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (20, 'omnis', 'Voluptas sint exercitationem exercitationem aut rerum voluptatem id.', 'vgreenholt@example.net', 'Nesciunt cum saepe voluptas aut.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (21, 'non', 'Voluptas aut eos necessitatibus.', 'qwyman@example.net', 'Natus perferendis aliquid hic quaerat dolorum tenetur cum.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (22, 'est', 'Provident voluptas est consequatur culpa repellat praesentium.', 'sydney98@example.org', 'Consequatur officiis excepturi sunt.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (23, 'asperiores', 'Expedita perspiciatis vel excepturi aperiam optio ab vel.', 'lharber@example.com', 'Non sit alias explicabo nisi ut optio.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (24, 'officiis', 'Est qui aut dolore repellat.', 'yhessel@example.com', 'Inventore sed sint occaecati rerum natus et rem.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (25, 'non', 'Quasi nisi et illum mollitia voluptas.', 'soledad65@example.com', 'Voluptatem dolores qui adipisci doloremque sunt delectus aut.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (26, 'totam', 'Nihil esse vitae consequuntur.', 'rschiller@example.com', 'Veritatis quae qui est ab.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (27, 'voluptatem', 'Nihil officiis ut labore totam.', 'jason.jakubowski@example.net', 'Laudantium est eligendi dolor odit sed fuga.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (28, 'similique', 'Beatae sapiente quia repudiandae qui.', 'oswald93@example.com', 'Est maiores et nemo illum natus beatae et saepe.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (29, 'alias', 'Qui vel omnis quae.', 'ludie.howe@example.com', 'Rerum rerum aliquid aliquam pariatur cum nam repellendus.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (30, 'magni', 'Itaque dolor et doloribus ut rerum.', 'yweimann@example.com', 'Similique alias magni repudiandae.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (31, 'tempore', 'Asperiores distinctio error delectus dolor architecto vel a.', 'fanny94@example.com', 'Tempora dolorem laborum quia fugiat quo quia consequatur.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (32, 'esse', 'Molestiae pariatur ab voluptatem est quam.', 'dschowalter@example.org', 'Commodi temporibus molestiae velit consequatur temporibus amet vel.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (33, 'eveniet', 'Tempora reiciendis sunt tempore.', 'ron81@example.net', 'Amet fugit ut dolorum laudantium repudiandae temporibus dolores quod.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (34, 'nam', 'Nulla et quia doloremque animi optio.', 'dorcas.shanahan@example.net', 'Qui possimus beatae quas excepturi alias laborum expedita.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (35, 'saepe', 'Sequi dolores illum error temporibus distinctio.', 'blang@example.org', 'Amet dolorum veniam vitae maxime non.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (36, 'doloremque', 'Nulla ut iste consectetur veritatis accusamus dolorem culpa.', 'lbosco@example.org', 'Quia ut natus rerum natus libero.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (37, 'cum', 'Neque delectus itaque dolorem consequuntur velit.', 'hswift@example.com', 'Quaerat temporibus amet non vel.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (38, 'in', 'Non aut omnis qui nihil voluptate tempora.', 'earmstrong@example.org', 'Eum totam natus et facilis.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (39, 'velit', 'Ea totam dolorum cum.', 'daugherty.thelma@example.net', 'Reprehenderit aut cum aliquam repudiandae repudiandae.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (40, 'error', 'Repellat in sint quibusdam ab.', 'lester.jerde@example.com', 'Quibusdam cupiditate illo magni neque.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (41, 'aut', 'Voluptatibus non distinctio voluptatem provident.', 'cole89@example.com', 'Est qui nulla provident et blanditiis cumque hic.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (42, 'laborum', 'Reprehenderit quia corrupti nobis id incidunt.', 'stracke.dewayne@example.com', 'Ea ut est magni qui.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (43, 'enim', 'Omnis quam voluptas ut sunt repellendus.', 'durward.mcglynn@example.net', 'Enim vitae consectetur necessitatibus earum accusamus corrupti provident fugiat.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (44, 'dolores', 'Mollitia odit qui id sed voluptas voluptatem officia autem.', 'wdavis@example.org', 'Voluptatem qui inventore rerum atque ab cupiditate.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (45, 'amet', 'Quo distinctio fugiat cumque repellat et perferendis.', 'jerad42@example.net', 'Sed dolores sed magnam in maxime.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (46, 'omnis', 'Accusamus cum natus soluta animi ad beatae architecto voluptatum.', 'rbeer@example.com', 'Rem earum qui consequatur itaque vitae suscipit dolores.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (47, 'doloribus', 'Nobis a sint nulla culpa possimus optio.', 'kuphal.rodger@example.net', 'Possimus autem exercitationem harum ut et dolor commodi omnis.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (48, 'ipsum', 'Quis at tenetur distinctio voluptates qui.', 'syundt@example.org', 'Distinctio corrupti doloremque adipisci natus porro ipsa.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (49, 'excepturi', 'Molestiae aliquam esse enim debitis placeat velit.', 'caroline.stamm@example.com', 'Qui blanditiis non recusandae dicta ratione aliquam aliquam.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (50, 'non', 'Possimus ullam reprehenderit eos omnis aliquam sit.', 'janiya.bernhard@example.net', 'Minus eveniet consequatur eos quia quidem.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (51, 'aspernatur', 'Voluptatem repudiandae eos cupiditate delectus.', 'dbruen@example.net', 'Maxime et omnis non fugiat vel non voluptas omnis.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (52, 'ut', 'Molestiae adipisci et dicta aspernatur aut.', 'karson58@example.com', 'Praesentium aliquid voluptatum qui explicabo.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (53, 'cumque', 'Aperiam est quia velit qui.', 'kaia.mohr@example.net', 'Est quo ratione consequatur sequi tenetur veniam.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (54, 'eligendi', 'Quibusdam occaecati doloremque asperiores.', 'ipfannerstill@example.net', 'Tempora nulla ut repellendus ad adipisci.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (55, 'qui', 'Et facere eius sunt porro non.', 'rudy.russel@example.org', 'Vel sed explicabo ut voluptas illo.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (56, 'qui', 'Quos quidem voluptate reiciendis illum eveniet quisquam.', 'donnie08@example.com', 'Quia qui laudantium dolorum officia veritatis.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (57, 'incidunt', 'Et omnis officia adipisci ipsam voluptatibus dolorem.', 'glenda59@example.net', 'Odio sint ea nulla voluptatem.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (58, 'ullam', 'Cumque cum tempore debitis sed ducimus pariatur dicta.', 'luz06@example.com', 'Est officia minima est sit.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (59, 'maiores', 'Corrupti blanditiis sit debitis dolorem ullam aut voluptatem sint.', 'mheathcote@example.org', 'Delectus velit porro quidem aspernatur incidunt accusamus.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (60, 'temporibus', 'Omnis id harum excepturi sapiente consectetur.', 'murray.cordia@example.com', 'Maiores id beatae sed vero blanditiis pariatur magnam.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (61, 'quia', 'Et autem dolores nesciunt rerum sunt.', 'yoberbrunner@example.org', 'Laudantium sequi possimus reiciendis minima odit error.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (62, 'maxime', 'Exercitationem ea error inventore vero recusandae.', 'marks.stanton@example.net', 'Sed veritatis est aspernatur deserunt.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (63, 'quas', 'Recusandae reiciendis qui quia assumenda unde quia ex ab.', 'gerlach.gerry@example.org', 'Explicabo occaecati perferendis eum et ut praesentium labore.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (64, 'ut', 'Omnis cumque necessitatibus molestias magni commodi saepe accusantium.', 'tjacobi@example.org', 'Cupiditate voluptates facere placeat aut.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (65, 'consectetur', 'Quam possimus sunt et officia ut earum qui.', 'jaren83@example.org', 'Libero eos est suscipit cum.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (66, 'consequatur', 'Voluptates dolor ea eligendi ea voluptas praesentium reprehenderit.', 'turner.wunsch@example.com', 'Provident rerum et accusamus corporis adipisci et.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (67, 'quas', 'Similique doloremque reprehenderit neque optio.', 'rconsidine@example.org', 'Molestiae quia illum quia sapiente ut sint exercitationem.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (68, 'consectetur', 'Quos minus est magni.', 'collier.millie@example.com', 'Ipsum harum sed aliquid.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (69, 'quasi', 'Doloremque expedita iste deleniti possimus molestiae saepe quis consequuntur.', 'walker.kira@example.com', 'Aliquam sit rerum dolorem voluptate vitae illum.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (70, 'aut', 'Sint sed architecto officiis debitis voluptatem ipsum.', 'golden01@example.net', 'Assumenda sunt expedita dolorum rem aut neque modi.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (71, 'reiciendis', 'Provident sed aut sed deleniti quia.', 'wilkinson.jude@example.org', 'Officia doloribus aliquid quia natus tenetur deserunt.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (72, 'quia', 'Similique est ut ea vero eligendi et.', 'ikuhlman@example.net', 'Aperiam quidem necessitatibus rem vel itaque.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (73, 'optio', 'Voluptate beatae et qui ea in quis.', 'bartell.neal@example.net', 'Voluptatum odit ratione in omnis.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (74, 'totam', 'Ex est rerum placeat atque velit illum architecto.', 'bernhard.bettye@example.com', 'Et corporis molestiae delectus vitae iste sit.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (75, 'doloremque', 'Est pariatur delectus qui amet.', 'jacobi.esteban@example.com', 'Eligendi libero pariatur et dolore velit qui cum.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (76, 'corrupti', 'Aut eligendi ut veritatis et odio.', 'shaniya.russel@example.com', 'Voluptatem laudantium dolores recusandae numquam totam.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (77, 'quis', 'Odio et ex hic quo harum.', 'felipe.balistreri@example.org', 'Ut maiores non id eligendi illo.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (78, 'est', 'Quam eveniet quam totam qui quaerat.', 'garrison44@example.com', 'Similique quae rerum voluptatum minus sed perspiciatis occaecati quia.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (79, 'quo', 'Earum in molestiae ea eos quisquam quasi.', 'dereck24@example.net', 'Consequatur animi ut velit cupiditate quod dolor maiores ea.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (80, 'dolor', 'Qui amet et dolores dolore nulla magni.', 'diana.bode@example.com', 'Deserunt saepe quo aut natus et.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (81, 'pariatur', 'Laudantium non libero quia molestiae deleniti.', 'allison.bartell@example.org', 'Molestiae quia minima ducimus magni voluptas illum.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (82, 'iure', 'Porro dolor et vel.', 'malvina.klein@example.net', 'Sequi facere ut vel dicta.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (83, 'est', 'Suscipit ipsam ipsam est.', 'shad21@example.net', 'Soluta doloribus magnam molestias porro ex illo laudantium.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (84, 'hic', 'At soluta libero quia vitae.', 'corkery.kacie@example.com', 'Cum et enim voluptate repellendus neque praesentium aspernatur.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (85, 'dicta', 'Eveniet voluptatum expedita magni dolores aliquam maiores.', 'amani.gusikowski@example.net', 'Consequatur dolorem ea eum consequatur minima facere.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (86, 'quo', 'Blanditiis molestiae nemo sunt deleniti.', 'stamm.mayra@example.org', 'Ea veniam repudiandae totam dicta ut quas.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (87, 'minima', 'Repellendus magni labore adipisci.', 'stanton.cortez@example.org', 'Corporis fuga ut nobis tempore.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (88, 'accusamus', 'Aut et eos ut possimus non inventore voluptatibus.', 'jkirlin@example.org', 'Ut voluptatum sit qui rerum.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (89, 'aspernatur', 'Ipsam quod molestiae et ipsum cum laboriosam qui.', 'cassandra.kunde@example.net', 'Labore totam eos modi et natus aut sit.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (90, 'aut', 'Nemo odio nobis voluptatem.', 'dimitri.ritchie@example.org', 'Optio rerum odio fugiat dolores aut rerum.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (91, 'odio', 'Labore deserunt voluptas et voluptate reprehenderit aliquid dolorem possimus.', 'ccormier@example.org', 'Nihil cupiditate vero eum ratione voluptates voluptas.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (92, 'consectetur', 'Alias laborum ut odio ut molestiae deleniti voluptas.', 'roma.haag@example.org', 'Iure doloribus ut blanditiis dolores ab.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (93, 'ullam', 'Ut sed ut omnis incidunt non ea.', 'bjaskolski@example.com', 'Esse et voluptates labore provident aut dolor est.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (94, 'ea', 'Id veniam est necessitatibus minima eveniet sit.', 'camilla.stark@example.org', 'Atque cum at voluptatem accusamus consequatur.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (95, 'voluptas', 'Dolorem in quos perspiciatis qui quibusdam eveniet.', 'garret27@example.com', 'Possimus voluptatem eos quisquam sit aut similique occaecati.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (96, 'similique', 'Maxime sed quisquam distinctio dicta autem.', 'elaina32@example.com', 'A dolores sunt ut molestiae omnis autem dolorem.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (97, 'nemo', 'Quaerat occaecati at ipsum architecto.', 'ymosciski@example.net', 'Nihil dolores exercitationem voluptas quia rem praesentium.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (98, 'qui', 'Quia ipsa sit quos commodi animi.', 'tprice@example.org', 'Architecto enim voluptate in aut deserunt aliquid voluptas.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (99, 'quasi', 'Voluptatem quod quia rerum reprehenderit placeat beatae consequatur.', 'terrell.prosacco@example.net', 'Maiores voluptatibus velit adipisci aliquam soluta neque.');
-INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO`) VALUES (100, 'magnam', 'Accusamus modi tempore assumenda enim animi.', 'qlittel@example.org', 'Explicabo illum velit iusto id voluptatem.');
-
+INSERT INTO `PUNT_VENTA` VALUES ('1','Reinger-Hegmann','http://www.lemke.info/','sasha51@example.net','Suite 984'),
+('2','Schoen-Witting','http://goodwin.biz/','haskell07@example.net','Apt. 718'),
+('3','Lakin-Cormier','http://wymanbrakus.com/','cary.mccullough@example.net','Suite 431'),
+('4','Legros Group','http://kutch.com/','mavis31@example.com','Suite 947'),
+('5','Reichel, Medhurst and Sawayn','http://walker.com/','maxime.halvorson@example.com','Apt. 683'),
+('6','Reichert-Kirlin','http://www.bode.com/','mcglynn.janis@example.com','Suite 352'),
+('7','Heidenreich, Schmeler and Veum','http://www.jonesabernathy.com/','zena05@example.com','Suite 030'),
+('8','Hodkiewicz and Sons','http://www.mertz.com/','gerhold.hadley@example.com','Suite 041'),
+('9','Bartell PLC','http://kessler.com/','effertz.amos@example.net','Apt. 454'),
+('10','Hirthe, Auer and Littel','http://feilfarrell.com/','wilkinson.d\'angelo@example.net','Suite 150'),
+('11','Beahan LLC','http://www.labadie.com/','cynthia.waelchi@example.com','Suite 256'),
+('12','Leffler, Schneider and Hayes','http://flatley.net/','hamill.osborne@example.org','Apt. 608'),
+('13','Stark, Bartell and Langosh','http://www.fahey.com/','lois.moore@example.org','Suite 786'),
+('14','King LLC','http://klingfunk.com/','romaine.welch@example.net','Apt. 739'),
+('15','Mueller LLC','http://www.okuneva.com/','rudy64@example.org','Apt. 596'),
+('16','Welch, Grady and Boehm','http://www.okeefe.com/','zgerhold@example.org','Apt. 919'),
+('17','Breitenberg-Herman','http://www.thiel.com/','elisha77@example.net','Suite 599'),
+('18','Hartmann-Cormier','http://www.predovicheller.com/','devonte69@example.net','Apt. 331'),
+('19','Herzog-Emmerich','http://www.armstrong.info/','penelope70@example.net','Suite 814'),
+('20','Franecki, Fahey and Stark','http://www.maggio.net/','ankunding.ernest@example.org','Apt. 840'),
+('21','Beier-Lynch','http://buckridge.com/','gcrooks@example.com','Suite 245'),
+('22','Nitzsche-Mayert','http://www.greenfelder.com/','dexter.rogahn@example.com','Apt. 048'),
+('23','Ferry-King','http://ortizshields.org/','krempel@example.com','Apt. 166'),
+('24','Barrows Inc','http://grady.com/','west.wilber@example.com','Apt. 194'),
+('25','Miller, Kuvalis and Wiegand','http://www.ricenader.com/','annabell29@example.net','Apt. 307'),
+('26','Lind-Stark','http://www.davis.biz/','wmcclure@example.org','Apt. 742'),
+('27','Turner-Dickens','http://www.langworth.com/','vmayer@example.com','Apt. 662'),
+('28','Sauer-Nolan','http://mitchell.biz/','tbauch@example.com','Apt. 811'),
+('29','Considine-Abbott','http://www.yost.info/','veum.deborah@example.com','Apt. 088'),
+('30','Gutkowski, Quitzon and Stroman','http://www.baumbach.biz/','gladys.boyle@example.com','Suite 049'),
+('31','Sipes-Haley','http://www.wintheiser.org/','milford38@example.com','Suite 900'),
+('32','Kihn and Sons','http://abshire.com/','ndouglas@example.org','Apt. 186'),
+('33','Goldner, Larson and Dickinson','http://west.com/','noemi34@example.com','Apt. 872'),
+('34','Kemmer Inc','http://www.haag.org/','christophe45@example.org','Suite 119'),
+('35','Hammes-Paucek','http://www.bernhardcummerata.info/','baron98@example.org','Apt. 385'),
+('36','Hermiston LLC','http://vonrueden.com/','emilie.baumbach@example.org','Apt. 935'),
+('37','Schinner Ltd','http://feestsawayn.com/','mwaters@example.net','Suite 894'),
+('38','Bergstrom Inc','http://kunde.net/','alessia.smith@example.net','Suite 878'),
+('39','Becker-Leannon','http://veum.com/','vlesch@example.org','Apt. 611'),
+('40','Eichmann, Nolan and Borer','http://labadie.com/','osbaldo.kihn@example.com','Apt. 284'),
+('41','O\'Connell-Jakubowski','http://swiftgislason.org/','betty87@example.com','Apt. 054'),
+('42','Kub-Cruickshank','http://www.jast.com/','sophia.hoeger@example.com','Apt. 697'),
+('43','Bernier-Sauer','http://www.hicklereynolds.com/','cyril.larkin@example.org','Apt. 682'),
+('44','Orn-Stroman','http://bechtelar.net/','wintheiser.keanu@example.org','Apt. 982'),
+('45','Eichmann, Hilpert and Paucek','http://heidenreich.com/','elian.conn@example.net','Suite 484'),
+('46','Bosco Group','http://kiehnbaumbach.com/','jadams@example.net','Suite 062'),
+('47','Bosco-O\'Keefe','http://www.rogahn.com/','osauer@example.org','Apt. 548'),
+('48','DuBuque-Turner','http://labadie.biz/','aemmerich@example.org','Suite 527'),
+('49','Jakubowski LLC','http://www.hegmann.com/','boehm.joyce@example.org','Apt. 641'),
+('50','Grant-Runolfsdottir','http://www.von.com/','dietrich.reed@example.net','Apt. 484'),
+('51','Bartoletti-Larkin','http://willmshettinger.org/','adelbert92@example.org','Suite 195'),
+('52','Skiles Inc','http://jaskolski.net/','deonte.block@example.org','Apt. 669'),
+('53','Bradtke LLC','http://www.thiel.com/','ursula.willms@example.com','Apt. 481'),
+('54','Gislason-Oberbrunner','http://dickinson.com/','hellen75@example.net','Apt. 120'),
+('55','O\'Connell, Rice and Hand','http://www.hudsondouglas.com/','mertie.turner@example.com','Apt. 904'),
+('56','Murray-Auer','http://www.mcglynn.info/','hermina.turcotte@example.com','Suite 689'),
+('57','O\'Keefe, Schultz and Aufderhar','http://www.becker.org/','nstiedemann@example.net','Suite 152'),
+('58','Howell Group','http://www.murphy.net/','maverick.roberts@example.org','Suite 841'),
+('59','Hirthe-Fahey','http://www.stracke.info/','blehner@example.net','Suite 157'),
+('60','Bernhard-Hodkiewicz','http://www.spencer.com/','rpurdy@example.org','Suite 970'),
+('61','Mitchell LLC','http://greenholt.com/','ullrich.rodger@example.com','Suite 735'),
+('62','Schimmel, Hoeger and Schamberger','http://www.handschroeder.com/','howe.danny@example.net','Apt. 918'),
+('63','Wilkinson PLC','http://www.morissettebins.net/','reichert.gideon@example.net','Apt. 744'),
+('64','Harvey-Schroeder','http://medhurst.net/','borer.kristofer@example.org','Apt. 519'),
+('65','Brown-Welch','http://www.aufderhar.com/','bernier.daniela@example.net','Suite 927'),
+('66','Predovic, Beatty and Deckow','http://zemlak.org/','goldner.amiya@example.org','Suite 000'),
+('67','Weber, Boyer and Spencer','http://pfeffer.org/','betsy.waters@example.com','Apt. 753'),
+('68','Zulauf-Donnelly','http://grady.org/','donald66@example.org','Suite 974'),
+('69','Kemmer, Rath and Murazik','http://toy.org/','marian.fisher@example.com','Suite 096'),
+('70','Purdy LLC','http://white.com/','oroberts@example.com','Apt. 481'),
+('71','Hermiston Inc','http://lowereichert.net/','dooley.jarod@example.com','Suite 804'),
+('72','Hagenes, Prosacco and Kutch','http://www.robel.net/','kelli43@example.net','Suite 576'),
+('73','Jacobson-Bailey','http://www.dickensfarrell.net/','sonya09@example.org','Suite 541'),
+('74','Cruickshank Group','http://schneider.com/','hauck.jayde@example.org','Suite 732'),
+('75','Welch-Fritsch','http://www.langosh.com/','gorn@example.net','Apt. 192'),
+('76','Casper-Daniel','http://kreiger.net/','celestine73@example.net','Suite 173'),
+('77','Beier, Gerhold and Durgan','http://www.bode.com/','senger.shaina@example.com','Apt. 983'),
+('78','Haley, Adams and Weissnat','http://www.graham.com/','etrantow@example.org','Apt. 876'),
+('79','McClure LLC','http://jaskolski.biz/','watsica.cielo@example.net','Suite 179'),
+('80','Schimmel-Braun','http://www.hilpertdare.com/','wiegand.janae@example.com','Apt. 734'),
+('81','Weimann, Kirlin and Rice','http://flatley.biz/','margarita.parisian@example.org','Suite 647'),
+('82','Effertz and Sons','http://www.mayer.com/','alfonzo.brown@example.org','Apt. 110'),
+('83','McCullough-Rau','http://www.casperkuhic.com/','stiedemann.ike@example.org','Suite 452'),
+('84','Goyette, Shanahan and Mayert','http://www.emmerich.com/','xstamm@example.com','Suite 180'),
+('85','Cummerata LLC','http://weissnat.com/','marjolaine.schuppe@example.com','Apt. 710'),
+('86','Champlin, Smith and Balistreri','http://www.kris.com/','kkilback@example.net','Suite 717'),
+('87','McKenzie PLC','http://emard.net/','scasper@example.com','Suite 286'),
+('88','Russel-Kihn','http://www.anderson.com/','triston.raynor@example.com','Apt. 426'),
+('89','Streich PLC','http://hauck.com/','johnathan.durgan@example.org','Suite 268'),
+('90','Larkin, Krajcik and Cronin','http://www.kirlin.org/','mckenzie.gladys@example.net','Apt. 912'),
+('91','Ebert, Labadie and Schulist','http://roweschaefer.com/','o\'keefe.albin@example.net','Suite 207'),
+('92','Wilderman, Mante and Keeling','http://feestruecker.biz/','ruby.gaylord@example.com','Suite 047'),
+('93','Kilback PLC','http://www.parisian.com/','tressie.doyle@example.net','Suite 902'),
+('94','Collier Inc','http://johns.com/','kale.runolfsson@example.net','Suite 969'),
+('95','Denesik, Conroy and Kuhic','http://marvin.com/','hcorwin@example.com','Suite 974'),
+('96','Grant-Dickinson','http://www.swaniawski.com/','columbus.keebler@example.org','Suite 439'),
+('97','Schoen-Kiehn','http://www.breitenberggrant.biz/','veum.porter@example.org','Apt. 746'),
+('98','Franecki, Feest and Denesik','http://www.turner.com/','candice.carter@example.org','Suite 063'),
+('99','Willms-Trantow','http://mosciski.org/','idibbert@example.com','Suite 264'),
+('100','Lebsack LLC','http://www.kessler.com/','dziemann@example.org','Apt. 984'); 
 /*INSERTS INTO TELEFON_PUNT_VENTA*/
 
 INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (104, 7, 'voluptatem', 'Ut rerum deleniti reprehenderit in et sit et praesentium.');
