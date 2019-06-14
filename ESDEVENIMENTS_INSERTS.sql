@@ -228,34 +228,34 @@ INSERT INTO `PUNT_VENTA` (`PK_CODI_PUNT_VENTA`, `NOM`, `WEB`, `EMAIL`, `DIRECCIO
 
 INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (971523455, 7, 'voluptatem', 'Ut rerum deleniti reprehenderit in et sit et praesentium.');
 INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (971123452, 10, 'expedita', 'Consequuntur doloremque nihil voluptas eos ratione aut doloribus.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (116, 4, 'voluptatum', 'Alias quibusdam perspiciatis debitis quasi.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (118, 5, 'aut', 'Alias voluptas alias corporis repellendus.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (121, 1, 'rerum', 'Rerum aut natus dolores laudantium pariatur totam temporibus accusantium.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (128, 22, 'voluptatem', 'Voluptate facilis tenetur rerum.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (133, 14, 'voluptatum', 'Quia molestiae quasi id quibusdam facere.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (136, 66, 'nisi', 'Consequatur consequuntur quia eligendi earum debitis similique magnam.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (137, 48, 'laborum', 'Corrupti consequatur nam sit saepe doloremque ipsam.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (151, 58, 'praesentium', 'Voluptatibus in natus cumque quae neque porro.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (153, 36, 'voluptatem', 'Minima est dicta quas commodi atque.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (155, 8, 'dolores', 'Nesciunt veritatis porro blanditiis aut.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (156, 9, 'cumque', 'Deserunt et nisi illo aspernatur.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (159, 13, 'autem', 'Ducimus dolorem totam quia aliquid ut soluta.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (163, 89, 'repellendus', 'Provident deleniti ut maxime dignissimos ea.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (164, 79, 'quam', 'Quae cumque sed rerum facilis aliquam.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (174, 68, 'sunt', 'Non et numquam quas rerum optio minima.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (178, 39, 'soluta', 'Quia tempore quibusdam error nam consequatur et.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (180, 6, 'voluptatem', 'Molestiae cupiditate nihil quaerat necessitatibus ut eos sunt ea.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (183, 85, 'tempore', 'Odio recusandae eum adipisci.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (184, 80, 'quidem', 'Sunt nesciunt qui ipsa voluptas officia quidem laudantium possimus.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (189, 41, 'dolorem', 'Et vitae est earum laudantium sapiente dolor impedit.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (190, 28, 'adipisci', 'Qui sed laborum tempore cupiditate.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (193, 2, 'qui', 'Consequatur ut et sapiente non nemo minus numquam.');
-INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (198, 73, 'vitae', 'Dolorum est consequatur libero cum et velit.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (686277714, 4, 'voluptatum', 'Alias quibusdam perspiciatis debitis quasi.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (655888555, 5, 'aut', 'Alias voluptas alias corporis repellendus.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (971354511, 1, 'rerum', 'Rerum aut natus dolores laudantium pariatur totam temporibus accusantium.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (971366656, 22, 'voluptatem', 'Voluptate facilis tenetur rerum.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (971252525, 14, 'voluptatum', 'Quia molestiae quasi id quibusdam facere.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (672151515, 66, 'nisi', 'Consequatur consequuntur quia eligendi earum debitis similique magnam.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (654654654, 48, 'laborum', 'Corrupti consequatur nam sit saepe doloremque ipsam.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (654987654, 58, 'praesentium', 'Voluptatibus in natus cumque quae neque porro.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (693989794, 36, 'voluptatem', 'Minima est dicta quas commodi atque.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (971151919, 8, 'dolores', 'Nesciunt veritatis porro blanditiis aut.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (627656198, 9, 'cumque', 'Deserunt et nisi illo aspernatur.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (654981841, 13, 'autem', 'Ducimus dolorem totam quia aliquid ut soluta.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (971971467, 89, 'repellendus', 'Provident deleniti ut maxime dignissimos ea.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (685556495, 79, 'quam', 'Quae cumque sed rerum facilis aliquam.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (971585174, 68, 'sunt', 'Non et numquam quas rerum optio minima.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (785665178, 39, 'soluta', 'Quia tempore quibusdam error nam consequatur et.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (741258180, 6, 'voluptatem', 'Molestiae cupiditate nihil quaerat necessitatibus ut eos sunt ea.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (789456383, 85, 'tempore', 'Odio recusandae eum adipisci.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (685309184, 80, 'quidem', 'Sunt nesciunt qui ipsa voluptas officia quidem laudantium possimus.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (605854189, 41, 'dolorem', 'Et vitae est earum laudantium sapiente dolor impedit.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (600000190, 28, 'adipisci', 'Qui sed laborum tempore cupiditate.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (695000193, 2, 'qui', 'Consequatur ut et sapiente non nemo minus numquam.');
+INSERT INTO `TELEFON_PUNT_VENTA` (`PK_TELEFON_PUNT_VENTA`, `PK_FK_CODI_PUNT_VENTA`, `TIPUS_NUMERO`, `OBSERVACIONS`) VALUES (605080198, 73, 'vitae', 'Dolorum est consequatur libero cum et velit.');
 
 /*INSERTS INTO RECINTE*/
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (1, 'deserunt', 'Calle Aragón, 12.', 8334589);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (2, 'omnis', 'Animi ipsum vel blanditiis explicabo ullam autem excepturi.', 876192187);
-INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (3, 'ab', 'Impedit deleniti esse molestiae commodi.', 0);
+INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (3, 'ab', 'Impedit deleniti esse molestiae commodi.', 99);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (4, 'deleniti', 'Nemo vero vitae non consectetur.', 8);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (5, 'tempora', 'Dicta sit ut et accusantium.', 10212);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (6, 'voluptate', 'Itaque quam beatae a.', 27);
@@ -269,7 +269,7 @@ INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (14, 'corporis', 'Nam qui aliquid autem modi quis.', 7852166);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (15, 'enim', 'Laudantium qui voluptatem accusantium natus.', 1841);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (16, 'optio', 'Aut aut et nam ut dolorem expedita iste atque.', 55);
-INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (17, 'commodi', 'Tempore aperiam quia eos ut fuga totam.', 0);
+INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (17, 'commodi', 'Tempore aperiam quia eos ut fuga totam.', 80);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (18, 'ipsa', 'Excepturi quis laborum vero atque voluptas.', 38631);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (19, 'consequuntur', 'Fuga commodi eum ut.', 3956741);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (20, 'atque', 'Quibusdam deleniti quae cupiditate rerum.', 819);
@@ -278,7 +278,7 @@ INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (23, 'hic', 'Mollitia eum aut eos veritatis aliquid earum quis.', 2343198);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (24, 'quidem', 'Quas cumque provident aliquam magnam sed accusamus ratione.', 869510963);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (25, 'consequuntur', 'Repudiandae rerum ad illum aut quia.', 646168);
-INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (26, 'sapiente', 'Sed eos vitae numquam vel aut.', 0);
+INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (26, 'sapiente', 'Sed eos vitae numquam vel aut.', 150);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (27, 'impedit', 'Modi sint ipsam atque eum voluptas.', 87);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (28, 'repellendus', 'Consequatur incidunt minus qui vitae laboriosam sed.', 255602072);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (29, 'atque', 'Veniam vero deserunt quibusdam ea ut consequatur.', 2);
@@ -289,13 +289,13 @@ INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (34, 'id', 'Aliquam expedita neque autem nulla.', 712);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (35, 'non', 'Ut deleniti qui facere quidem et labore.', 7596275);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (36, 'inventore', 'Debitis est qui fuga.', 7287);
-INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (37, 'in', 'Nemo dicta voluptatem consequatur voluptas.', 0);
-INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (38, 'consequatur', 'Quod ea qui dolorem in omnis eius.', 0);
+INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (37, 'in', 'Nemo dicta voluptatem consequatur voluptas.', 550);
+INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (38, 'consequatur', 'Quod ea qui dolorem in omnis eius.', 450);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (39, 'impedit', 'Nulla ex modi eaque rerum excepturi.', 29848993);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (40, 'et', 'Aliquid vitae dolor ad eaque ratione.', 6121);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (41, 'nesciunt', 'Odio perspiciatis est est voluptatem reiciendis officia.', 62);
-INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (42, 'sed', 'Quo est itaque in delectus et.', 0);
-INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (43, 'ipsam', 'Id corrupti blanditiis nam voluptatum corporis non sunt qui.', 0);
+INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (42, 'sed', 'Quo est itaque in delectus et.', 60);
+INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (43, 'ipsam', 'Id corrupti blanditiis nam voluptatum corporis non sunt qui.', 780);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (44, 'explicabo', 'Soluta porro et itaque ratione assumenda.', 7);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (45, 'voluptas', 'Non iure commodi odio aspernatur et voluptas.', 1645);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (46, 'maxime', 'Et voluptas laboriosam quo quaerat ab officiis laborum.', 21726);
@@ -305,12 +305,12 @@ INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (50, 'non', 'Quae reprehenderit et porro quia amet soluta temporibus.', 91);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (51, 'ratione', 'Rerum eos et qui et vitae iure.', 603);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (52, 'nulla', 'Assumenda et et expedita qui quo.', 114316);
-INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (53, 'est', 'Cupiditate et molestiae voluptatibus perferendis.', 1);
+INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (53, 'est', 'Cupiditate et molestiae voluptatibus perferendis.', 155);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (54, 'voluptatem', 'Sapiente quisquam et eius sequi voluptatibus.', 488);
-INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (55, 'libero', 'Aspernatur nesciunt fugiat iste voluptatum voluptatem et aperiam.', 0);
+INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (55, 'libero', 'Aspernatur nesciunt fugiat iste voluptatum voluptatem et aperiam.', 30);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (56, 'aspernatur', 'Quo dignissimos commodi eaque pariatur numquam earum autem.', 8016);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (57, 'ratione', 'Necessitatibus corrupti soluta aliquam animi rerum id voluptatem.', 436);
-INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (58, 'consequatur', 'Iste ea perspiciatis aspernatur qui perspiciatis suscipit inventore.', 0);
+INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (58, 'consequatur', 'Iste ea perspiciatis aspernatur qui perspiciatis suscipit inventore.', 140);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (59, 'nesciunt', 'Recusandae a in illo ut nemo nesciunt dolorem.', 666);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (60, 'ea', 'Et saepe quo ut debitis.', 17);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (61, 'ut', 'Quae accusamus dolore deserunt consequatur.', 680);
@@ -324,14 +324,14 @@ INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (69, 'eos', 'Placeat impedit quia consectetur.', 88112);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (70, 'est', 'Sunt et consectetur est.', 21627883);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (71, 'perferendis', 'Totam ut nihil aut et.', 12142);
-INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (72, 'hic', 'Ab deserunt molestiae et molestiae officia eum.', 0);
+INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (72, 'hic', 'Ab deserunt molestiae et molestiae officia eum.', 220);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (73, 'laborum', 'Odit rerum possimus et nihil veritatis.', 462439628);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (74, 'nulla', 'Aut rerum quis non mollitia animi corrupti consequatur.', 6);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (75, 'eos', 'Nulla accusantium architecto a incidunt et est.', 3957);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (76, 'qui', 'Iure minima perspiciatis sunt.', 465);
-INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (77, 'rerum', 'Praesentium iure ut inventore.', 0);
+INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (77, 'rerum', 'Praesentium iure ut inventore.', 100);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (78, 'porro', 'Corporis sed at est corrupti.', 47024);
-INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (79, 'quo', 'Reiciendis ad ab cum nobis atque eligendi iusto.', 0);
+INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (79, 'quo', 'Reiciendis ad ab cum nobis atque eligendi iusto.', 1000);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (80, 'quos', 'Eos ea eligendi quasi quia inventore.', 74573832);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (81, 'minima', 'Dignissimos earum sit consectetur et.', 2);
 INSERT INTO `RECINTE` (`PK_CODI_RECINTE`, `NOM_RECINTE`, `DIRECCIO`, `CAPACITAT`) VALUES (82, 'non', 'Fugit reiciendis reiciendis labore quo numquam.', 7725);
@@ -458,25 +458,25 @@ INSERT INTO `TIPUS` (`PK_CODI_TIPUS`, `NOM_TIPUS`) VALUES (100, 'Sequi omnis del
 
 /*INSERTS INTO ESDEVENIMENT*/
 INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (103, 'in', 'Mollitia pariatur praesentium quisquam et eos minima labore repudiandae. Fugit et aliquid ex animi nisi. Optio ducimus veritatis cum repellendus tenetur. Quos praesentium soluta itaque rerum est.', '1981-01-19', '1981-10-18', '99999.99', 9);
-INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (105, 'molestias', 'Molestiae consequuntur hic alias qui ab deleniti ipsam voluptatem. Quos facere nemo blanditiis eaque vitae iusto. Quaerat et animi ad exercitationem tempore dolorem.', '1984-05-22', '1975-12-08', '1338.00', 66);
-INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (107, 'maiores', 'Cum cum sequi sit officiis. Aut eos non ut aut. Ad officiis consequatur nam non. Nostrum ullam qui est labore id voluptatem.', '1996-10-08', '2001-12-27', '0.00', 76);
-INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (114, 'earum', 'Explicabo quibusdam nihil odio nihil porro sapiente. Ex id voluptatem quos voluptate non rem magnam. Blanditiis rem illum quas a hic atque. Minima adipisci eum doloremque architecto quo adipisci.', '2001-09-17', '1970-02-08', '8446.00', 4);
+INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (105, 'molestias', 'Molestiae consequuntur hic alias qui ab deleniti ipsam voluptatem. Quos facere nemo blanditiis eaque vitae iusto. Quaerat et animi ad exercitationem tempore dolorem.', '1975-12-08', '1984-05-22', '1338.00', 66);
+INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (107, 'maiores', 'Cum cum sequi sit officiis', '1996-10-08', '2001-12-27', '0.00', 76);
+INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (114, 'earum', 'Explicabo quibusdam nihil odio nihil porro sapiente. Ex id voluptatem quos voluptate non rem magnam. Blanditiis rem illum quas a hic atque. Minima adipisci eum doloremque architecto quo adipisci.', '1970-02-08', '2001-09-17', '8446.00', 4);
 INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (116, 'saepe', 'Molestiae quis commodi fuga vel quibusdam labore. Officiis dolor quidem quia sed. Qui commodi dolores beatae molestiae iste dolore eos. Dolorum nostrum aut aut dolores molestias delectus.', '1980-11-10', '2003-09-18', '6616.00', 8);
-INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (117, 'doloremque', 'Consequatur molestias reprehenderit et quidem. Quis aperiam et vitae. Dolorem quaerat officia dolorem natus adipisci. Odio dolores commodi enim aliquam laborum consequatur.', '2014-07-17', '1995-09-10', '99999.99', 5);
+INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (117, 'doloremque', 'Consequatur molestias reprehenderit et quidem. Quis aperiam et vitae. Dolorem quaerat officia dolorem natus adipisci. Odio dolores commodi enim aliquam laborum consequatur.', '1995-09-10', '2014-07-17', '99999.99', 5);
 INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (127, 'voluptate', 'Harum autem dolores facilis fugiat et exercitationem quae distinctio. Culpa quibusdam amet ea similique numquam nisi id. Blanditiis magni tempora rerum. Aut doloremque est repellat qui sit.', '1977-05-23', '2012-08-16', '338.00', 6);
-INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (128, 'itaque', 'Dolorem temporibus itaque autem qui illo temporibus. Alias ipsam debitis aut non veritatis cum voluptatibus quia. Odit sit hic omnis ab dolor numquam ad.', '2014-05-14', '1977-02-28', '94.00', 3);
-INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (135, 'nesciunt', 'Laborum eius nihil pariatur repellendus est et. Velit saepe eum doloremque optio voluptatem soluta voluptatum beatae.', '2015-06-16', '2007-03-25', '99999.99', 87);
-INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (139, 'animi', 'Molestiae architecto beatae est hic. Consequatur quas sed quis mollitia quo. Tenetur cum iure velit eos aut neque.', '2013-07-02', '1987-10-23', '22.00', 7);
+INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (128, 'itaque', 'Dolorem temporibus itaque autem qui illo temporibus. Alias ipsam debitis aut non veritatis cum voluptatibus quia. Odit sit hic omnis ab dolor numquam ad.', '1977-02-28', '2014-05-14', '94.00', 3);
+INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (135, 'nesciunt', 'Laborum eius nihil pariatur repellendus est et. Velit saepe eum doloremque optio voluptatem soluta voluptatum beatae.', '2007-03-25', '2015-06-16', '99999.99', 87);
+INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (139, 'animi', 'Molestiae architecto beatae est hic. Consequatur quas sed quis mollitia quo. Tenetur cum iure velit eos aut neque.', '1987-10-23', '2013-07-02', '22.00', 7);
 INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (143, 'a', 'Earum vero sit provident ut sunt autem. Et qui voluptatem itaque dolor ducimus. Voluptate velit dignissimos repellendus iste quia excepturi. Dicta numquam commodi esse magni voluptate soluta ut voluptate. Et qui numquam id.', '1982-02-17', '1987-01-29', '5.00', 7);
-INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (145, 'ut', 'Ut quo cumque corporis quod. Consequuntur tempora nihil officia molestiae molestiae. Dolores voluptas assumenda magnam libero praesentium. Amet et deleniti quia.', '1990-05-26', '1972-01-27', '99999.99', 4);
-INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (150, 'corporis', 'Corrupti officiis exercitationem molestiae exercitationem cupiditate. Alias nostrum blanditiis consequatur dicta. Consequatur ratione quia labore totam voluptas autem. Vel illum sit rerum eum similique et ipsum nam.', '1990-01-01', '1987-08-31', '47223.00', 15);
+INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (145, 'ut', 'Ut quo cumque corporis quod. Consequuntur tempora nihil officia molestiae molestiae. Dolores voluptas assumenda magnam libero praesentium. Amet et deleniti quia.', '1972-01-27', '1990-05-26', '99999.99', 4);
+INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (150, 'corporis', 'Corrupti officiis exercitationem molestiae exercitationem cupiditate. Alias nostrum blanditiis consequatur dicta. Consequatur ratione quia labore totam voluptas autem. Vel illum sit rerum eum similique et ipsum nam.', '1987-08-31', '1990-01-01', '47223.00', 15);
 INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (152, 'dolore', 'Fugiat cupiditate voluptate veritatis possimus. Molestias quidem assumenda qui at. At ut nihil voluptate sed vel est ut. Et voluptatem suscipit eveniet magni et esse.', '2003-09-14', '2007-10-27', '5731.00', 5);
 INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (156, 'necessitatibus', 'Error accusamus error et dolorem. Sit aut cumque quis in ut. Voluptas et ex vel odit tempore ut eaque.', '1984-07-09', '2002-04-22', '99999.99', 86);
-INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (163, 'et', 'Vel sed eius aut. Dolor et officiis et. Hic et ea nisi commodi ea.', '2005-09-02', '1994-10-28', '0.00', 80);
-INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (164, 'natus', 'Tempore rerum illum aut culpa. Expedita sit placeat aliquam iure. Rem voluptas qui dolores et.', '2004-02-15', '1999-02-06', '99999.99', 74);
+INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (163, 'et', 'Vel sed eius aut. Dolor et officiis et. Hic et ea nisi commodi ea.', '1994-10-28', '2005-09-02', '0.00', 80);
+INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (164, 'natus', 'Tempore rerum illum aut culpa. Expedita sit placeat aliquam iure. Rem voluptas qui dolores et.', '1999-02-06', '2004-02-15', '99999.99', 74);
 INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (165, 'magnam', 'Omnis quod et sunt minus libero. Autem ea eaque adipisci fuga. Quia perferendis quam cupiditate enim id aut nihil. A facilis est sit occaecati nostrum est.', '1970-02-13', '2000-09-27', '99999.99', 1);
 INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (171, 'asperiores', 'Harum eligendi cumque debitis. In aut repellendus odit officia. Iure qui officiis quis aperiam sequi quo ut eum. Aut magni porro ducimus et.', '1999-02-24', '2010-04-02', '300.00', 8);
-INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (192, 'eum', 'Eius dolorum ea sequi sint quia debitis rerum. Voluptatem esse aut ad ut eaque ea quis in.', '2007-07-21', '2005-09-24', '99999.99', 6);
+INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (192, 'eum', 'Eius dolorum ea sequi sint quia debitis rerum. Voluptatem esse aut ad ut eaque ea quis in.', '2005-09-24', '2007-07-21', '99999.99', 6);
 INSERT INTO `ESDEVENIMENT` (`PK_ID_ESDEVENIMENT`, `NOM`, `DESCRIPCIO`, `DATA_INICI`, `DATA_FI`, `PREU`, `FK_CODI_RECINTE`) VALUES (196, 'sequi', 'Optio provident atque perferendis placeat facere id. Praesentium in magni quia. Corporis vel vel perferendis eaque debitis officia dolorum.', '1999-12-30', '2016-05-19', '0.00', 9);
 
 /*INSERTS INTO TIPUS_ESDEVENIMENT*/
@@ -521,7 +521,7 @@ INSERT INTO `RESTRICCIO` (`PK_CODI_RESTRICCIO`, `PK_FK_ID_RESTRICCIO_ESDEVENIMEN
 INSERT INTO `RESTRICCIO` (`PK_CODI_RESTRICCIO`, `PK_FK_ID_RESTRICCIO_ESDEVENIMENT`, `TIPUS_RESTRICCIO`, `DESCRIPCIO`) VALUES (57919, 152, 'sed', 'Amet rem ab dolorem saepe ut.');
 
 /*INSERTS INTO BUTACA*/
-INSERT INTO `BUTACA` (`PK_FK_CODI_RECINTE`, `PK_FILA_BUTACA`, `PK_NUMERO_BUTACA`) VALUES (3, 0, 7008);
+INSERT INTO `BUTACA` (`PK_FK_CODI_RECINTE`, `PK_FILA_BUTACA`, `PK_NUMERO_BUTACA`) VALUES (3, 23, 7008);
 INSERT INTO `BUTACA` (`PK_FK_CODI_RECINTE`, `PK_FILA_BUTACA`, `PK_NUMERO_BUTACA`) VALUES (6, 2356, 3899918);
 INSERT INTO `BUTACA` (`PK_FK_CODI_RECINTE`, `PK_FILA_BUTACA`, `PK_NUMERO_BUTACA`) VALUES (8, 2, 2964);
 INSERT INTO `BUTACA` (`PK_FK_CODI_RECINTE`, `PK_FILA_BUTACA`, `PK_NUMERO_BUTACA`) VALUES (17, 10503, 27563038);
@@ -531,3 +531,20 @@ INSERT INTO `BUTACA` (`PK_FK_CODI_RECINTE`, `PK_FILA_BUTACA`, `PK_NUMERO_BUTACA`
 INSERT INTO `BUTACA` (`PK_FK_CODI_RECINTE`, `PK_FILA_BUTACA`, `PK_NUMERO_BUTACA`) VALUES (76, 42834888, 1668);
 INSERT INTO `BUTACA` (`PK_FK_CODI_RECINTE`, `PK_FILA_BUTACA`, `PK_NUMERO_BUTACA`) VALUES (91, 43, 3617);
 INSERT INTO `BUTACA` (`PK_FK_CODI_RECINTE`, `PK_FILA_BUTACA`, `PK_NUMERO_BUTACA`) VALUES (97, 3462, 443209);
+
+/*INSERTS INTO ENTRADA*/
+INSERT INTO `ENTRADA` VALUES (103,1,0.0,'1983-03-09 10:01:48',2,1,3,23,7008);
+INSERT INTO `ENTRADA` VALUES (103,2,0.0,'1983-03-09 10:01:48',2,1,3,23,7008);
+INSERT INTO `ENTRADA` VALUES (103,3,NULL,'2013-12-13 08:38:36',4,NULL,8,2,2964);
+INSERT INTO `ENTRADA` VALUES (103,4,NULL,'1981-10-16 14:31:50',5,NULL,4,null,null);
+INSERT INTO `ENTRADA` VALUES (103,5,NULL,'1988-12-02 10:30:17',6,NULL,5,null,null);
+INSERT INTO `ENTRADA` VALUES (103,6,NULL,'2009-07-01 23:45:31',7,NULL,52,29,497);
+INSERT INTO `ENTRADA` VALUES (103,8,NULL,'1997-05-28 04:50:58',9,NULL,8,NULL,NULL);
+INSERT INTO `ENTRADA` VALUES (103,9,NULL,'1977-08-04 13:24:39',10,NULL,9,NULL,NULL);
+INSERT INTO `ENTRADA` VALUES (103,10,NULL,'2019-01-09 01:05:12',11,NULL,91,43,3617);
+INSERT INTO `ENTRADA` VALUES (103,11,NULL,'2005-03-06 01:44:47',12,NULL,97,3462,443209);
+
+SELECT * FROM ESDEVENIMENT;
+UPDATE PERSONA
+SET EMAIL = 'A';
+SELECT * FROM PERSONA;
